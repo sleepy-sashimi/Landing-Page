@@ -1,9 +1,9 @@
 header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 24px 48px;
+    padding: 24px 0;
 }
 
 a {
@@ -13,7 +13,7 @@ a {
 .header-logo a {
     color: #f9faf8;
     font-size: 24px;
-    padding: 0 300px;
+    justify-content: center;
     font-weight: bold;
 }
 
@@ -24,7 +24,56 @@ a {
 
 .header-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 24px;
-    padding: 0 300px;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+    gap: 48px; 
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.hero-main {
+    width: 400px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    padding-bottom: 12px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 12px;
+}
+
+button {
+    background-color: #3882F6;
+    font-family: Arial;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    color: white;
+    font-weight: bold;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1 1 0;
+    min-width: none;
 }
